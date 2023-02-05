@@ -10,10 +10,10 @@ abstract class TvLocalDataSource {
   Future<List<TvTable>> getWatchlistTv();
 }
 
-class tvLocalDataSourceImpl implements TvLocalDataSource {
+class TvLocalDataSourceImpl implements TvLocalDataSource {
   final DatabaseHelper databaseHelper;
 
-  tvLocalDataSourceImpl({required this.databaseHelper});
+  TvLocalDataSourceImpl({required this.databaseHelper});
 
   @override
   Future<List<TvTable>> getWatchlistTv() async {

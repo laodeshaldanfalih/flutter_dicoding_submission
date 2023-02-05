@@ -29,7 +29,7 @@ class TvModel extends Equatable {
   String originalName;
   String overview;
   double popularity;
-  String posterPath;
+  String? posterPath;
   double voteAverage;
   int voteCount;
 

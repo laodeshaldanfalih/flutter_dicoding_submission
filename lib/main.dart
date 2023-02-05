@@ -18,7 +18,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ditonton/injection.dart' as di;
-
 import 'presentation/pages/tv/tv_detail_page.dart';
 import 'presentation/provider/tv/popular_tv_notifier.dart';
 import 'presentation/provider/tv/top_rated_tv_notifier.dart';
